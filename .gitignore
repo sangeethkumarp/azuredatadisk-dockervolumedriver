@@ -6,6 +6,8 @@
 # Folders
 _obj
 _test
+# Ignoring vendor folder, to force use of Glide explicitly for package management.
+vendor
 
 # Architecture specific extensions/prefixes
 *.[568vq]
