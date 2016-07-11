@@ -1,0 +1,14 @@
+sudo: false
+language: go
+go: 1.5
+install:
+- export GO15VENDOREXPERIMENT=1
+- glide install
+script:
+- go build -v
+- go test -v
+env:
+- GOOS=linux GOARCH=386
+- GOOS=linux GOARCH=amd64
+- GOOS=linux GOARCH=arm
+- GOOS=linux GOARCH=arm64

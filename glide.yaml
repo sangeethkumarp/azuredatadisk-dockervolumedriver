@@ -1,0 +1,11 @@
+package: github.com/sangeethkumarp/azuredatadisk-dockervolumedriver
+homepage: https://github.com/sangeethkumarp/azuredatadisk-dockervolumedriver
+license: LICENSE
+owners:
+- name: Sangeeth Kumar
+  email: sankumar@microsoft.com
+  homepage: https://twitter.com/sangeethkumarp
+import:
+- package: github.com/Sirupsen/logrus
+  version: v0.10.0
+- package: github.com/urfave/cli
