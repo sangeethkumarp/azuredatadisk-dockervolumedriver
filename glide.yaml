@@ -9,3 +9,6 @@ import:
 - package: github.com/Sirupsen/logrus
   version: v0.10.0
 - package: github.com/urfave/cli
+- package: github.com/docker/go-plugins-helpers
+  subpackages:
+  - volume
